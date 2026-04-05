@@ -131,7 +131,7 @@ export default function AboutPage() {
                 Keerti is the one who actually builds what Netkat promises. With over 10 years across telecommunications, enterprise IT and managed services, she understands how technology works at both the infrastructure and application layer. She designs the frameworks, builds the integrations and makes sure what gets delivered actually holds up.
               </p>
               <p className="text-sm leading-relaxed text-muted-foreground">
-                Every solution goes through both of them. Shyam brings the client context and systems thinking, Keerti brings the architecture and build. Between the two, nothing gets handed over half-finished.
+                Every solution goes through both of them. Shyam brings the client context and system thinking, Keerti brings the architecture and build. Between the two, nothing gets handed over half-finished.
               </p>
             </div>
 
