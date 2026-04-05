@@ -32,21 +32,21 @@ export function HeroClinical() {
         }}
       />
 
-      <nav className="relative flex items-center justify-between px-6 md:px-12 py-5"
+      <nav className="relative flex items-center justify-between px-4 md:px-12 py-4 md:py-5"
         style={{ borderBottom: "1px solid rgba(0,0,0,0.07)" }}
       >
-        <div className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-lg overflow-hidden">
+        <div className="flex items-center gap-2 md:gap-3">
+          <div className="h-9 w-9 md:h-10 md:w-10 rounded-lg overflow-hidden shrink-0">
             <img src="/android-chrome-192x192.png" alt="Netkat logo" className="h-full w-full object-cover" />
           </div>
-          <div className="flex items-baseline gap-2">
-            <span className="text-[28px] font-semibold tracking-tight text-foreground">Netkat</span>
-            <span className="text-[22px] font-mono text-muted-foreground uppercase tracking-wider">Consulting</span>
+          <div className="flex items-baseline gap-1.5 md:gap-2">
+            <span className="text-[20px] md:text-[28px] font-semibold tracking-tight text-foreground">Netkat</span>
+            <span className="text-[14px] md:text-[22px] font-mono text-muted-foreground uppercase tracking-wider">Consulting</span>
           </div>
         </div>
         <button
           onClick={scrollToContact}
-          className="px-6 py-3 rounded-lg text-base font-mono font-semibold text-white transition-opacity hover:opacity-90"
+          className="px-3 py-2 md:px-6 md:py-3 rounded-lg text-xs md:text-base font-mono font-semibold text-white transition-opacity hover:opacity-90 whitespace-nowrap"
           style={{ background: "#16a34a" }}
         >
           Start Assessment
@@ -54,8 +54,8 @@ export function HeroClinical() {
       </nav>
 
       {/* Hero */}
-      <div className="relative px-6 md:px-12 lg:px-20 py-16 md:py-24">
-        <div className="flex flex-col lg:flex-row lg:items-stretch gap-16 lg:gap-12">
+      <div className="relative px-4 md:px-12 lg:px-20 py-10 md:py-24">
+        <div className="flex flex-col lg:flex-row lg:items-stretch gap-10 lg:gap-12">
 
           <div className="flex flex-col gap-6 flex-1 min-w-0">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight leading-[1.08] text-foreground">
@@ -169,7 +169,7 @@ export function HeroClinical() {
       {/* Contact Form */}
       <div
         id="contact"
-        className="relative px-6 md:px-12 lg:px-20 py-16 md:py-24"
+        className="relative px-4 md:px-12 lg:px-20 py-10 md:py-24"
         style={{ borderTop: "1px solid rgba(0,0,0,0.07)" }}
       >
         <div className="max-w-2xl">
