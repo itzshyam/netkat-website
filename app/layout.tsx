@@ -7,7 +7,7 @@ const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const _jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
-  title: 'Netkat Consulting | IT Infrastructure Specialist',
+  title: 'Netkat Consulting',
   description: 'Specialist IT consulting for Australian businesses. Systems that work.',
   generator: 'v0.app',
   icons: {
